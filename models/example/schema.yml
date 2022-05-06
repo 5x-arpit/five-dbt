@@ -8,14 +8,14 @@ models:
       schema: PUBLIC_PUBLIC
       tables: EMPLOYEE
       columns:
-          - name: emp_id
+          - name: EMP_ID
             description: "The primary key for this table"
             tests:
                 - unique
                 - not_null
             meta:
               dimension:
-                label: 'emp_id' # this is the label you'll see in Lightdash
+                label: 'EMP_ID' # this is the label you'll see in Lightdash
                 description: 'My custom description'
           - name: role
             description: "The role column of employee table"
