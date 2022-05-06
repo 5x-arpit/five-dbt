@@ -2,7 +2,7 @@
 version: 2
 
 models:
-    - name: EMPLOYEE
+    - name: employee
       description: "A starter dbt model employee"
       database: FIVETRAN_TESTING_DATABASE
       schema: PUBLIC_PUBLIC
