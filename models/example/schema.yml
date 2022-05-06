@@ -13,12 +13,11 @@ models:
             tests:
                 - unique
                 - not_null
+            meta:
+              dimension:
+                label: 'Total revenue' # this is the label you'll see in Lightdash
+                description: 'My custom description'
           - name: role
             description: "The role column of employee table"
           - name: emp_name
             description: "The employee name column of employee table"
-          - meta: 
-              - metrics: 
-                      - total_pages_views: 
-                            - type: count_distinct
-           
