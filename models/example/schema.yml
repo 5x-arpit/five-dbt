@@ -17,4 +17,8 @@ models:
             description: "The role column of employee table"
           - name: emp_name
             description: "The employee name column of employee table"
+          - meta: 
+              - metrics: 
+                      - total_pages_views: 
+                            - type: count_distinct
            
