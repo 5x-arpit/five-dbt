@@ -15,9 +15,17 @@ models:
                 - not_null
             meta:
               dimension:
-                label: 'Total revenue' # this is the label you'll see in Lightdash
+                label: 'emp_id' # this is the label you'll see in Lightdash
                 description: 'My custom description'
           - name: role
             description: "The role column of employee table"
+            meta:
+              dimension:
+                label: 'role' # this is the label you'll see in Lightdash
+                description: 'My custom description'
           - name: emp_name
             description: "The employee name column of employee table"
+            meta:
+              dimension:
+                label: 'emp_name' # this is the label you'll see in Lightdash
+                description: 'My custom description'
