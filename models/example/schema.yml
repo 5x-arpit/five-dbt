@@ -30,3 +30,23 @@ models:
                 label: 'emp_name' # this is the label you'll see in Lightdash
                 description: 'My custom description'
          
+    - name: EMPLOYEE
+      description: "A starter dbt model"
+      columns:
+          - name: emi_id
+            description: "The primary key for this table"
+            tests:
+                - unique
+                - not_null
+
+profile:
+  target: prod
+  outputs:
+    prod:
+      type: snowflake
+      host: 127.0.0.1
+      user: FIVETRAN_TESTING_USER
+      database: FIVETRAN_TESTING_DATABASE
+      warehouse: FIVETRAN_TESTING_WAREHOUSE
+      role: FIVETRAN_TESTING_ROLE
+      account: fv34040.us-central1.gcp
