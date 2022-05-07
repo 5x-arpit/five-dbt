@@ -30,8 +30,8 @@ models:
                 label: 'emp_name' # this is the label you'll see in Lightdash
                 description: 'My custom description'
           - target: 
-              name: prod
-              proflie_name: schema
-              type: snowflake
-              schema: PUBLIC_PUBLIC
+              name: 'prod'
+              proflie_name: 'schema'
+              type: 'snowflake'
+              schema: 'PUBLIC_PUBLIC'
               threads: 4
