@@ -44,7 +44,7 @@ profile:
   outputs:
     prod:
       type: snowflake
-      host: 127.0.0.1
+      host: https://fv34040.us-central1.gcp.snowflakecomputing.com/
       user: FIVETRAN_TESTING_USER
       database: FIVETRAN_TESTING_DATABASE
       warehouse: FIVETRAN_TESTING_WAREHOUSE
