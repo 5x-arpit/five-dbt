@@ -6,7 +6,7 @@ models:
       description: "A starter dbt model employee"
       database: FIVETRAN_TESTING_DATABASE
       schema: PUBLIC_PUBLIC
-      tables: EMPLOYEE
+      tables: AMAN
       columns:
           - name: EMP_ID
             description: "The primary key for this table"
